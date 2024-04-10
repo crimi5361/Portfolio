@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio de BOGA ANGE CHRISTIAN GUEMA</title>
+  <script src="https://unpkg.com/scrollreveal@4.0.7/dist/scrollreveal.min.js"></script>
+  <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const sr = ScrollReveal({
+      reset: true,
+      distance: '80px',
+      duration: 2000,
+      delay: 200
+    });
+
+    sr.reveal('.heading', { origin: 'top' });
+    sr.reveal('.skills-list', { origin: 'bottom' });
+    sr.reveal('.text-group', { origin: 'left' });
+    sr.reveal('.comp, .entrer', { origin: 'right' });
+  });
+</script>
+
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #1f242f;
+      color: #333;
+    }
+
+    :root {
+        --bg-color: #1f242f;
+        --second-bg-color: #323946;
+        --text-color: #fff;
+        --main-color: #0ef;
+    
+    }
+
+    header {
+      background-color: #1f242f;
+      color: var(--text-color);
+      padding: 20px;
+      text-align: center;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 20px auto;
+      background-color: var(--second-bg-color);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      min-height: 50vh;
+      padding: 10rem 9% 2rem;
+    }
+
+  
+
+    h1, h2, p {
+      margin-bottom: 15px;
+      color: #fff;
+    }
+
+    .skills-list {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    
+span{
+    color: var(--main-color) ;
+
+}
+
+    .skills-list li {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 4rem;
+        height: 2rem;
+        background: transparent;
+        border: .2rem solid var(--main-color);
+        border-radius: 50px;
+        font-size: 0.7rem;
+        color: var(--main-color);
+        margin: 3rem 2.5rem 3rem 0;
+        transition: .5s ease;
+        margin: 10px;
+    }
+
+    
+
+    .skills-list li:hover {
+        background: var(--main-color);
+    color: var(--second-bg-color);
+    box-shadow: 0 0 1rem var(--main-color);
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #323946;
+      color: #fff;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1 class="heading">Portfolio de <span>BOGA ANGE CHRISTIAN GUEMA</span></h1>
+  </header>
+
+
+  <section>
+    <h2 class="entrer">À propos de moi</h2>
+    <p class="text-group">Étudiant passionné en informatique, spécialisé en MIAGE, je mets en œuvre mes compétences diversifiées acquises au cours de multiples formations. Expert en langages tels que Python, SQL, ProgRESQL, Java, JavaScript, React, HTML/CSS, je m'engage à fusionner la technologie avec une approche pragmatique pour résoudre des problèmes complexes. Mon parcours d'apprentissage continu témoigne de ma détermination à rester à la pointe des dernières avancées technologiques. Passionné par le développement logiciel, je cherche constamment à relever de nouveaux défis et à contribuer de manière significative à l'univers de l'informatique.</p>
+
+    <h2 class="comp">Compétences</h2>
+    <ul class="skills-list">
+      <li>Python</li>
+      <li>SQL</li>
+      <li>SQL</li>
+      <li>Java</li>
+      <li>JavaScript</li>
+      <li>React</li>
+      <li>HTML</li>
+      <li>CSS</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Boga Ange Christian. Tous droits réservés.</p>
+  </footer>
+  
+
+ 
+
+</body>
+</html>
